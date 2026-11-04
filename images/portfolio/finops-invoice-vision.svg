@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <pattern id="grid7" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg7)"/>
+  <rect width="1280" height="720" fill="url(#grid7)"/>
+
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0C1322" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">LEDGER-VISION // CLAUDE MULTIMODAL PDF EXTRACTION → XERO &amp; QUICKBOOKS</text>
+  <rect x="1006" y="50" width="206" height="28" rx="14" fill="#064E3B" stroke="#10B981"/>
+  <text x="1026" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">99.8% TAX RECONCILED</text>
+
+  <!-- Left: Scanned PDF Invoice Document Bounding Boxes -->
+  <rect x="76" y="118" width="520" height="534" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="102" y="150" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">MULTIMODAL DOCUMENT PARSER (SUPPLIER PDF)</text>
+
+  <rect x="112" y="172" width="448" height="452" rx="10" fill="#F8FAFC"/>
+  <rect x="134" y="196" width="190" height="42" rx="4" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-width="1.5"/>
+  <text x="144" y="222" fill="#0F172A" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">INV-2026-08941</text>
+
+  <rect x="352" y="196" width="186" height="42" rx="4" fill="#F59E0B" fill-opacity="0.16" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="364" y="222" fill="#0F172A" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">Net 30 • AUD</text>
+
+  <line x1="134" y1="264" x2="538" y2="264" stroke="#CBD5E1"/>
+  <rect x="134" y="284" width="404" height="196" rx="6" fill="#0EA5E9" fill-opacity="0.08" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="148" y="314" fill="#0F172A" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">1. Cloud GPU Compute Cluster     $8,400.00</text>
+  <text x="148" y="352" fill="#0F172A" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">2. Dedicated pgvector Storage    $1,950.00</text>
+  <text x="148" y="390" fill="#0F172A" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">3. Enterprise SLA Support        $1,650.00</text>
+  <text x="148" y="438" fill="#475569" font-family="JetBrains Mono, monospace" font-size="11">GST / Tax (10.0%):               $1,200.00</text>
+
+  <rect x="294" y="504" width="244" height="54" rx="6" fill="#10B981" fill-opacity="0.18" stroke="#059669" stroke-width="2"/>
+  <text x="310" y="537" fill="#064E3B" font-family="JetBrains Mono, monospace" font-size="15" font-weight="800">TOTAL: $13,200.00</text>
+
+  <!-- Right: Validated Pydantic Schema & Xero Ledger Sync -->
+  <rect x="620" y="118" width="584" height="534" rx="14" fill="#090D16" stroke="#1E293B"/>
+  <text x="646" y="150" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">PYDANTIC V2 VALIDATION &amp; ACCOUNTING LEDGER SYNC</text>
+
+  <rect x="646" y="174" width="532" height="236" rx="10" fill="#10192B" stroke="#334155"/>
+  <text x="668" y="206" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12">{ "invoice_id": "INV-2026-08941",</text>
+  <text x="668" y="234" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">  "subtotal": 12000.00, "tax": 1200.00,</text>
+  <text x="668" y="262" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12">  "math_checksum_valid": true,</text>
+  <text x="668" y="290" fill="#FDE68A" font-family="JetBrains Mono, monospace" font-size="12">  "gl_account_code": "420-CLOUD-INFRA",</text>
+  <text x="668" y="318" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">  "duplicate_hash_check": "UNIQUE_OK",</text>
+  <text x="668" y="346" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12">  "erp_sync_status": "XERO_DRAFT_CREATED" }</text>
+  <text x="668" y="384" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">✓ Math checksum assertion: sum(line_items) + tax == total</text>
+
+  <rect x="646" y="432" width="532" height="92" rx="10" fill="#10192B" stroke="#10B981" stroke-opacity="0.6"/>
+  <text x="668" y="464" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Zero Manual Bookkeeping Entry</text>
+  <text x="668" y="492" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Cut AP processing time by 89% across 4,200+ monthly supplier PDFs</text>
+
+  <rect x="646" y="542" width="532" height="84" rx="10" fill="#10192B" stroke="#334155"/>
+  <text x="668" y="572" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">EXCEPTION GUARDRAIL</text>
+  <text x="668" y="598" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Any tax variance &gt; $0.01 automatically routes to Slack CFO review.</text>
+</svg>
+

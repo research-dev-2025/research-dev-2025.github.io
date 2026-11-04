@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="grid3" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1F2937" stroke-width="1" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg3)"/>
+  <rect width="1280" height="720" fill="url(#grid3)"/>
+
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0C1322" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">AEGIS-CLOUD // C# .NET 8 + PYTHON CLEAN ARCHITECTURE &amp; SHIFT-LEFT DEVSECOPS</text>
+  <rect x="1020" y="50" width="192" height="28" rx="14" fill="#064E3B" stroke="#10B981"/>
+  <text x="1040" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">0 CRITICAL CVEs • PASS</text>
+
+  <!-- Left: Clean Architecture Microservices -->
+  <rect x="76" y="118" width="552" height="534" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="102" y="150" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">CLEAN ARCHITECTURE &amp; HIGH-THROUGHPUT SERVICES</text>
+
+  <rect x="102" y="174" width="500" height="106" rx="12" fill="#090D16" stroke="#10B981"/>
+  <text x="124" y="204" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">CORE DOMAIN &amp; APPLICATION LAYER (DDD / SOLID)</text>
+  <text x="124" y="232" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">C# / .NET 8 Web API  +  Python FastAPI Workers</text>
+  <text x="124" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">CQRS MediatR • Strict Pydantic/EF Core • P99 API = 42ms</text>
+
+  <rect x="102" y="302" width="240" height="148" rx="12" fill="#090D16" stroke="#334155"/>
+  <text x="122" y="332" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">ASYNC EVENT BUS</text>
+  <text x="122" y="360" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Redis + Outbox</text>
+  <text x="122" y="386" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Idempotent Consumers</text>
+  <text x="122" y="410" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Dead-Letter Replay</text>
+  <text x="122" y="432" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">28,400 events/sec</text>
+
+  <rect x="362" y="302" width="240" height="148" rx="12" fill="#090D16" stroke="#334155"/>
+  <text x="382" y="332" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">DATA &amp; OBSERVABILITY</text>
+  <text x="382" y="360" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">PostgreSQL + SQL</text>
+  <text x="382" y="386" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Read Replicas &amp; Partition</text>
+  <text x="382" y="410" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">OpenTelemetry Traces</text>
+  <text x="382" y="432" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">99.99% SLA Uptime</text>
+
+  <rect x="102" y="472" width="500" height="154" rx="12" fill="#090D16" stroke="#1E293B"/>
+  <text x="124" y="502" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">MULTI-CLOUD INFRASTRUCTURE AS CODE (TERRAFORM)</text>
+  <rect x="124" y="520" width="142" height="82" rx="8" fill="#111A2E" stroke="#334155"/>
+  <text x="140" y="550" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">Azure AKS</text>
+  <text x="140" y="576" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="10">KeyVault + Entra</text>
+
+  <rect x="281" y="520" width="142" height="82" rx="8" fill="#111A2E" stroke="#334155"/>
+  <text x="297" y="550" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">AWS EKS</text>
+  <text x="297" y="576" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="10">RDS + KMS IAM</text>
+
+  <rect x="438" y="520" width="142" height="82" rx="8" fill="#111A2E" stroke="#334155"/>
+  <text x="454" y="550" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">Docker / Helm</text>
+  <text x="454" y="576" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="10">Blue/Green Rollout</text>
+
+  <!-- Right: Shift-Left DevSecOps Pipeline -->
+  <rect x="652" y="118" width="552" height="534" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="678" y="150" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">SHIFT-LEFT CI/CD DEVSECOPS SECURITY GATES</text>
+
+  <rect x="678" y="176" width="500" height="72" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="700" y="206" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Gate 01 — Static Analysis (SAST) &amp; Secret Detection</text>
+  <text x="700" y="230" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Semgrep + GitLeaks • 0 Exposed Credentials</text>
+  <rect x="1074" y="196" width="84" height="30" rx="6" fill="#064E3B"/>
+  <text x="1094" y="216" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">PASSED</text>
+
+  <rect x="678" y="264" width="500" height="72" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="700" y="294" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Gate 02 — Dependency &amp; SCA Audit (Snyk)</text>
+  <text x="700" y="318" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">NuGet / PyPI / npm Lockfiles Verified • 0 High/Crit</text>
+  <rect x="1074" y="284" width="84" height="30" rx="6" fill="#064E3B"/>
+  <text x="1094" y="304" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">PASSED</text>
+
+  <rect x="678" y="352" width="500" height="72" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="700" y="382" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Gate 03 — Container &amp; OS Hardening (Trivy)</text>
+  <text x="700" y="406" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Distroless Non-Root Images • Read-Only RootFS</text>
+  <rect x="1074" y="372" width="84" height="30" rx="6" fill="#064E3B"/>
+  <text x="1094" y="392" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">PASSED</text>
+
+  <rect x="678" y="440" width="500" height="72" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="700" y="470" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Gate 04 — Terraform &amp; K8s Policy Scan (Checkov)</text>
+  <text x="700" y="494" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">142 CIS Cloud Rules Enforced • Private Subnets + KMS</text>
+  <rect x="1074" y="460" width="84" height="30" rx="6" fill="#064E3B"/>
+  <text x="1094" y="480" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">PASSED</text>
+
+  <rect x="678" y="528" width="500" height="98" rx="10" fill="#090D16" stroke="#10B981"/>
+  <text x="700" y="558" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">CYCLONEDX SBOM &amp; ZERO-DOWNTIME PROMOTION</text>
+  <text x="700" y="584" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="13">Signed artifact promoted to Production with automated</text>
+  <text x="700" y="606" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="13">health probes and instant rollback guardrails.</text>
+</svg>
+
