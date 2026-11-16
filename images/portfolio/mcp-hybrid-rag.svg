@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0D1628"/>
+    </linearGradient>
+    <pattern id="grid2" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg2)"/>
+  <rect width="1280" height="720" fill="url(#grid2)"/>
+
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0B1220" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">CORTEX-MCP // HYBRID PGVECTOR RAG &amp; SCOPED MCP SERVER GATEWAY</text>
+  <rect x="1008" y="50" width="204" height="28" rx="14" fill="#064E3B" stroke="#10B981"/>
+  <text x="1028" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">99.4% CITATION GROUNDED</text>
+
+  <!-- Retrieval Pipeline Diagram -->
+  <rect x="76" y="118" width="1128" height="260" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="102" y="150" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">HYBRID RETRIEVAL + MODEL CONTEXT PROTOCOL (MCP) EXECUTION TOPOLOGY</text>
+
+  <!-- Node 1 -->
+  <rect x="102" y="176" width="212" height="172" rx="12" fill="#090D16" stroke="#334155"/>
+  <text x="120" y="206" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">1. HYBRID INDEX</text>
+  <text x="120" y="234" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">PostgreSQL pgvector</text>
+  <text x="120" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">+ Dense HNSW Cosine</text>
+  <text x="120" y="280" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">+ Lexical BM25 FTS</text>
+  <text x="120" y="302" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">+ ACL Tenant Filter</text>
+  <rect x="120" y="314" width="128" height="22" rx="5" fill="#0F172A" stroke="#1E293B"/>
+  <text x="130" y="329" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10">Top-40 Candidates</text>
+
+  <path d="M 314 262 L 366 262" stroke="#10B981" stroke-width="2.5"/>
+
+  <!-- Node 2 -->
+  <rect x="366" y="176" width="224" height="172" rx="12" fill="#090D16" stroke="#10B981"/>
+  <text x="384" y="206" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">2. CROSS-ENCODER</text>
+  <text x="384" y="234" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Neural Reranker</text>
+  <text x="384" y="258" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">Faithfulness: 0.994</text>
+  <text x="384" y="280" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">Context Recall: 0.978</text>
+  <text x="384" y="302" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">P95 Latency: 184ms</text>
+  <rect x="384" y="314" width="150" height="22" rx="5" fill="#064E3B"/>
+  <text x="394" y="329" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="10">Chunk IDs Enforced</text>
+
+  <path d="M 590 262 L 642 262" stroke="#10B981" stroke-width="2.5"/>
+
+  <!-- Node 3 -->
+  <rect x="642" y="176" width="244" height="172" rx="12" fill="#090D16" stroke="#F59E0B"/>
+  <text x="660" y="206" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">3. TYPED MCP SERVER</text>
+  <text x="660" y="234" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Scoped Tool Execution</text>
+  <text x="660" y="258" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• sql.query_readonly()</text>
+  <text x="660" y="280" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• github.inspect_pr()</text>
+  <text x="660" y="302" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">• crm.lookup_account()</text>
+  <rect x="660" y="314" width="166" height="22" rx="5" fill="#451A03"/>
+  <text x="670" y="329" fill="#FDE68A" font-family="JetBrains Mono, monospace" font-size="10">RBAC + Audit Logged</text>
+
+  <path d="M 886 262 L 938 262" stroke="#10B981" stroke-width="2.5"/>
+
+  <!-- Node 4 -->
+  <rect x="938" y="176" width="240" height="172" rx="12" fill="#090D16" stroke="#334155"/>
+  <text x="956" y="206" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">4. TIERED LLM ROUTER</text>
+  <text x="956" y="234" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">-62% Inference Spend</text>
+  <text x="956" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">• Claude 3.7 Sonnet</text>
+  <text x="956" y="280" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">• OpenAI Failover</text>
+  <text x="956" y="302" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">• Local Ollama / vLLM</text>
+  <rect x="956" y="314" width="154" height="22" rx="5" fill="#0F172A" stroke="#1E293B"/>
+  <text x="966" y="329" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="10">Semantic Redis Cache</text>
+
+  <!-- Bottom Panels: RAGAS Evals & JSON Grounded Output -->
+  <rect x="76" y="402" width="548" height="252" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="102" y="434" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">RAGAS CI REGRESSION BENCHMARK (LANGFUSE)</text>
+
+  <text x="102" y="474" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">Citation Faithfulness</text>
+  <rect x="300" y="460" width="240" height="14" rx="7" fill="#1E293B"/>
+  <rect x="300" y="460" width="236" height="14" rx="7" fill="#10B981"/>
+  <text x="552" y="473" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">99.4%</text>
+
+  <text x="102" y="520" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">Context Precision</text>
+  <rect x="300" y="506" width="240" height="14" rx="7" fill="#1E293B"/>
+  <rect x="300" y="506" width="228" height="14" rx="7" fill="#10B981"/>
+  <text x="552" y="519" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">96.8%</text>
+
+  <text x="102" y="566" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">Semantic Cache Hit</text>
+  <rect x="300" y="552" width="240" height="14" rx="7" fill="#1E293B"/>
+  <rect x="300" y="552" width="164" height="14" rx="7" fill="#F59E0B"/>
+  <text x="552" y="565" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">68.2%</text>
+
+  <text x="102" y="618" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Zero-Hallucination Guard: Uncited claims rejected pre-stream</text>
+
+  <rect x="648" y="402" width="556" height="252" rx="14" fill="#090D16" stroke="#1E293B"/>
+  <text x="674" y="434" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">STRUCTURED MCP + CITATION PAYLOAD</text>
+  <text x="674" y="468" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12">{</text>
+  <text x="694" y="494" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12">"model_route": "claude-3-7-sonnet -&gt; cached",</text>
+  <text x="694" y="520" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12">"mcp_tool": "sql.query_readonly (scope: finance)",</text>
+  <text x="694" y="546" fill="#FDE68A" font-family="JetBrains Mono, monospace" font-size="12">"citations": ["doc_msa_2025#chunk_14", "ledger_q3#88"],</text>
+  <text x="694" y="572" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12">"hallucination_risk": 0.002,</text>
+  <text x="694" y="598" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12">"latency_ms": 184</text>
+  <text x="674" y="624" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12">}</text>
+</svg>
+
