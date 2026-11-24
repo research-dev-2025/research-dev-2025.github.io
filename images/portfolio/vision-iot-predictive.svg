@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <pattern id="grid8" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg8)"/>
+  <rect width="1280" height="720" fill="url(#grid8)"/>
+
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0C1322" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">SENTINEL-IOT // REAL-TIME YOLOV8 COMPUTER VISION &amp; PREDICTIVE TELEMETRY</text>
+  <rect x="1012" y="50" width="200" height="28" rx="14" fill="#064E3B" stroke="#10B981"/>
+  <text x="1032" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">EDGE FPS: 60 • 24MS</text>
+
+  <!-- Left: Computer Vision Bounding Box Feed -->
+  <rect x="76" y="118" width="584" height="534" rx="14" fill="#090D16" stroke="#1E293B"/>
+  <text x="102" y="150" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">● CAM-04 EDGE INFERENCE STREAM (YOLOV8 + TENSORRT)</text>
+
+  <!-- Simulated Industrial Conveyor / Zone Viewport -->
+  <rect x="102" y="172" width="532" height="332" rx="10" fill="#111A2E" stroke="#334155"/>
+  <line x1="102" y1="338" x2="634" y2="338" stroke="#1E293B" stroke-dasharray="6 6"/>
+  <line x1="368" y1="172" x2="368" y2="504" stroke="#1E293B" stroke-dasharray="6 6"/>
+
+  <!-- Detection Box 1 -->
+  <rect x="144" y="214" width="184" height="114" rx="4" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-width="2"/>
+  <rect x="144" y="192" width="166" height="22" fill="#10B981"/>
+  <text x="152" y="207" fill="#022C22" font-family="JetBrains Mono, monospace" font-size="10" font-weight="800">BELT_FLOW_OK 0.99</text>
+
+  <!-- Detection Box 2 -->
+  <rect x="386" y="256" width="212" height="148" rx="4" fill="#F59E0B" fill-opacity="0.14" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="386" y="234" width="204" height="22" fill="#F59E0B"/>
+  <text x="394" y="249" fill="#451A03" font-family="JetBrains Mono, monospace" font-size="10" font-weight="800">SURGE_PREDICTED +12M 0.96</text>
+
+  <rect x="102" y="524" width="532" height="102" rx="10" fill="#10192B" stroke="#1E293B"/>
+  <text x="124" y="556" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Proactive Bottleneck &amp; Safety Anomaly Prevention</text>
+  <text x="124" y="584" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Combines RTSP video streams + MQTT sensor telemetry into</text>
+  <text x="124" y="606" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Python forecasting models and React WebSocket control rooms.</text>
+
+  <!-- Right: Time-Series Forecast & Telemetry -->
+  <rect x="684" y="118" width="520" height="534" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="710" y="150" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">THROUGHPUT FORECAST &amp; ALERT PIPELINE</text>
+
+  <rect x="710" y="176" width="468" height="210" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="732" y="206" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">15-MINUTE HORIZON LOAD PREDICTION</text>
+  <polyline points="732,340 790,326 848,318 906,290 964,244 1022,220 1080,262 1146,298" fill="none" stroke="#10B981" stroke-width="3"/>
+  <line x1="732" y1="235" x2="1152" y2="235" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="996" y="210" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="10">Auto-Reroute Triggered</text>
+
+  <rect x="710" y="408" width="468" height="102" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="732" y="438" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">STREAM INGESTION STACK</text>
+  <text x="732" y="466" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Python • YOLOv8 • PostgreSQL Timescale • AWS</text>
+  <text x="732" y="492" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">12,500 Sensor Msg/sec • WebSocket Operator Alerts</text>
+
+  <rect x="710" y="528" width="468" height="98" rx="10" fill="#090D16" stroke="#10B981" stroke-opacity="0.5"/>
+  <text x="732" y="558" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">MEASURED OPERATIONAL IMPACT</text>
+  <text x="732" y="586" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="13">-43% unplanned queue congestion &amp; sub-second safety</text>
+  <text x="732" y="608" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="13">incident alerting across critical facility zones.</text>
+</svg>
+

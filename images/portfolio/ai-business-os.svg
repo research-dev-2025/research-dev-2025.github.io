@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <pattern id="grid1" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg1)"/>
+  <rect width="1280" height="720" fill="url(#grid1)"/>
+
+  <!-- App Frame -->
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0C1322" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Window Controls & Title -->
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">NEXUS-OS // MULTI-AGENT BUSINESS OPERATING SYSTEM</text>
+  <rect x="1032" y="50" width="180" height="28" rx="14" fill="#064E3B" stroke="#10B981" stroke-width="1"/>
+  <circle cx="1050" cy="64" r="4" fill="#34D399"/>
+  <text x="1062" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">RLS + HITL ACTIVE</text>
+
+  <!-- Sidebar -->
+  <rect x="45" y="91" width="225" height="590" fill="#0A101D"/>
+  <line x1="270" y1="90" x2="270" y2="682" stroke="#1E293B" stroke-width="2"/>
+  <text x="68" y="128" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">COMMAND MODULES</text>
+
+  <rect x="60" y="144" width="194" height="38" rx="8" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.5"/>
+  <text x="76" y="168" fill="#34D399" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">● Agent Approval Queue</text>
+
+  <text x="76" y="212" fill="#94A3B8" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="600">○ Omnichannel Inbox</text>
+  <text x="76" y="250" fill="#94A3B8" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="600">○ Multi-Entity CRM Sync</text>
+  <text x="76" y="288" fill="#94A3B8" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="600">○ FinOps PDF → Xero</text>
+  <text x="76" y="326" fill="#94A3B8" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="600">○ Token &amp; Audit Ledger</text>
+
+  <rect x="60" y="560" width="194" height="98" rx="10" fill="#111A2E" stroke="#1E293B"/>
+  <text x="74" y="584" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700">DAILY OPS METRICS</text>
+  <text x="74" y="612" fill="#F8FAFC" font-family="Outfit, sans-serif" font-size="22" font-weight="800">1,420 Tasks</text>
+  <text x="74" y="636" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">0 Unapproved Writes</text>
+
+  <!-- Top KPI Cards -->
+  <rect x="298" y="116" width="286" height="106" rx="12" fill="#111A2E" stroke="#1E293B"/>
+  <text x="318" y="144" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">INBOX &amp; WHATSAPP TRIAGE</text>
+  <text x="318" y="182" fill="#F8FAFC" font-family="Outfit, sans-serif" font-size="30" font-weight="800">98.7% Auto</text>
+  <text x="318" y="205" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">LangGraph + Pydantic Schema</text>
+
+  <rect x="604" y="116" width="286" height="106" rx="12" fill="#111A2E" stroke="#1E293B"/>
+  <text x="624" y="144" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">INVOICE VISION → XERO</text>
+  <text x="624" y="182" fill="#F8FAFC" font-family="Outfit, sans-serif" font-size="30" font-weight="800">1.4s / PDF</text>
+  <text x="624" y="205" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11">Line-Item Tax Reconciled</text>
+
+  <rect x="910" y="116" width="298" height="106" rx="12" fill="#111A2E" stroke="#1E293B"/>
+  <text x="930" y="144" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">CRM IDEMPOTENCY</text>
+  <text x="930" y="182" fill="#34D399" font-family="Outfit, sans-serif" font-size="30" font-weight="800">100% Synced</text>
+  <text x="930" y="205" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">HubSpot • GHL • Twenty CRM</text>
+
+  <!-- Agent Orchestration Pipeline -->
+  <rect x="298" y="244" width="910" height="176" rx="14" fill="#111A2E" stroke="#1E293B"/>
+  <text x="322" y="274" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">LIVE MULTI-AGENT ORCHESTRATION GRAPH</text>
+
+  <rect x="322" y="296" width="186" height="96" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="338" y="324" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">01. EVENT ROUTER</text>
+  <text x="338" y="348" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Gmail, WhatsApp,</text>
+  <text x="338" y="368" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Webhook Queue</text>
+
+  <path d="M 508 344 L 544 344" stroke="#10B981" stroke-width="2.5"/>
+
+  <rect x="544" y="296" width="206" height="96" rx="10" fill="#090D16" stroke="#10B981"/>
+  <text x="560" y="324" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">02. SPECIALIST SQUAD</text>
+  <text x="560" y="348" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Lead Enrich • Triage</text>
+  <text x="560" y="368" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Claude PDF Extractor</text>
+
+  <path d="M 750 344 L 786 344" stroke="#F59E0B" stroke-width="2.5"/>
+
+  <rect x="786" y="296" width="196" height="96" rx="10" fill="#1C1917" stroke="#F59E0B"/>
+  <text x="802" y="324" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">03. APPROVAL GATE</text>
+  <text x="802" y="348" fill="#FDE68A" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Slack / Web 1-Click</text>
+  <text x="802" y="368" fill="#FDE68A" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Human Sign-Off</text>
+
+  <path d="M 982 344 L 1016 344" stroke="#10B981" stroke-width="2.5"/>
+
+  <rect x="1016" y="296" width="168" height="96" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="1032" y="324" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">04. LEDGER SYNC</text>
+  <text x="1032" y="348" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">CRM + Xero Write</text>
+  <text x="1032" y="368" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Immutable Audit</text>
+
+  <!-- Human Approval Action Card -->
+  <rect x="298" y="442" width="910" height="214" rx="14" fill="#111A2E" stroke="#10B981" stroke-opacity="0.55"/>
+  <text x="322" y="474" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">PENDING HUMAN-IN-THE-LOOP APPROVALS (2)</text>
+
+  <rect x="322" y="492" width="862" height="66" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="342" y="520" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Enterprise Proposal #409 — Dispatch Quote ($18,500) &amp; Create Xero Draft Invoice</text>
+  <text x="342" y="542" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Agent: FinOps + Sales Triage • Confidence: 99.2% • Tenant RLS: org_acme_prod</text>
+  <rect x="1044" y="507" width="120" height="36" rx="8" fill="#10B981"/>
+  <text x="1069" y="530" fill="#022C22" font-family="JetBrains Mono, monospace" font-size="12" font-weight="800">✓ APPROVE</text>
+
+  <rect x="322" y="570" width="862" height="66" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="342" y="598" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Inbound VIP Lead — Schedule Discovery Call &amp; Sync HubSpot Deal Stage</text>
+  <text x="342" y="620" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Agent: Lead Research Squad • Enriched 14 Firmographic Signals • Cost: $0.0042</text>
+  <rect x="1044" y="585" width="120" height="36" rx="8" fill="#1E293B" stroke="#334155"/>
+  <text x="1067" y="608" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">INSPECT</text>
+</svg>
+

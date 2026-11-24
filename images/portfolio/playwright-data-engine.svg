@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <pattern id="grid6" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg6)"/>
+  <rect width="1280" height="720" fill="url(#grid6)"/>
+
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0C1322" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">PULSE-HARVESTER // ANTI-BOT PLAYWRIGHT CLUSTER &amp; ENTITY DEDUPLICATION</text>
+  <rect x="1004" y="50" width="208" height="28" rx="14" fill="#064E3B" stroke="#10B981"/>
+  <text x="1024" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">48 WORKERS • 99.2% CLEAN</text>
+
+  <!-- Pipeline Stages -->
+  <rect x="76" y="118" width="1128" height="210" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="102" y="150" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">DISTRIBUTED EXTRACTION, LLM STRUCTURING &amp; RECORD RESOLUTION PIPELINE</text>
+
+  <rect x="102" y="174" width="250" height="128" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="122" y="204" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">01. STEALTH COLLECTORS</text>
+  <text x="122" y="232" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Playwright + Proxies</text>
+  <text x="122" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">TLS/Browser Rotation</text>
+  <text x="122" y="280" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">148,200 Raw Listings</text>
+
+  <path d="M 352 238 L 388 238" stroke="#10B981" stroke-width="2.5"/>
+
+  <rect x="388" y="174" width="250" height="128" rx="10" fill="#090D16" stroke="#10B981"/>
+  <text x="408" y="204" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">02. SCHEMA EXTRACTION</text>
+  <text x="408" y="232" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Claude + Pydantic</text>
+  <text x="408" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">DOM → Typed JSON</text>
+  <text x="408" y="280" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">100% Validated Fields</text>
+
+  <path d="M 638 238 L 674 238" stroke="#F59E0B" stroke-width="2.5"/>
+
+  <rect x="674" y="174" width="250" height="128" rx="10" fill="#090D16" stroke="#F59E0B"/>
+  <text x="694" y="204" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">03. ENTITY DEDUPE</text>
+  <text x="694" y="232" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Vector + Fuzzy Hash</text>
+  <text x="694" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Cross-Board Merge</text>
+  <text x="694" y="280" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11">-34.9% Duplicates Cut</text>
+
+  <path d="M 924 238 L 960 238" stroke="#10B981" stroke-width="2.5"/>
+
+  <rect x="960" y="174" width="218" height="128" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="980" y="204" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">04. WAREHOUSE SYNC</text>
+  <text x="980" y="232" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="14" font-weight="700">Postgres + Redis</text>
+  <text x="980" y="258" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">96,410 Canonical Cos</text>
+  <text x="980" y="280" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">CRM Webhook Ready</text>
+
+  <!-- Data Table Preview -->
+  <rect x="76" y="352" width="1128" height="300" rx="14" fill="#090D16" stroke="#1E293B"/>
+  <text x="102" y="386" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">CANONICAL ENRICHED ENTITY STREAM (LIVE)</text>
+
+  <line x1="102" y1="406" x2="1178" y2="406" stroke="#1E293B"/>
+  <text x="102" y="430" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">CANONICAL ENTITY</text>
+  <text x="390" y="430" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">SOURCES MERGED</text>
+  <text x="650" y="430" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">ENRICHED SIGNALS</text>
+  <text x="980" y="430" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">DEDUPE SCORE</text>
+
+  <rect x="102" y="446" width="1076" height="52" rx="8" fill="#10192B"/>
+  <text x="120" y="477" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Vertex Logistics Group Ltd</text>
+  <text x="390" y="477" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12">LinkedIn + Registry + Careers</text>
+  <text x="650" y="477" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">VP Ops Verified • ERP Migration Signal</text>
+  <text x="980" y="477" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.994 CANONICAL</text>
+
+  <rect x="102" y="510" width="1076" height="52" rx="8" fill="#10192B"/>
+  <text x="120" y="541" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Northstar MedTech Systems</text>
+  <text x="390" y="541" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12">Directory + SEC + G2</text>
+  <text x="650" y="541" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">HIPAA Portal Expansion • Series B</text>
+  <text x="980" y="541" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.989 CANONICAL</text>
+
+  <rect x="102" y="574" width="1076" height="52" rx="8" fill="#10192B"/>
+  <text x="120" y="605" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="13" font-weight="700">Kestrel Financial Advisory</text>
+  <text x="390" y="605" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12">4 Regional Boards Merged</text>
+  <text x="650" y="605" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="12">Hiring AI Ops • Xero + HubSpot Stack</text>
+  <text x="980" y="605" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.991 CANONICAL</text>
+</svg>
+

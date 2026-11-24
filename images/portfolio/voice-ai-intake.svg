@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0E1729"/>
+    </linearGradient>
+    <pattern id="grid5" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg5)"/>
+  <rect width="1280" height="720" fill="url(#grid5)"/>
+
+  <rect x="44" y="38" width="1192" height="644" rx="18" fill="#0C1322" stroke="#1E293B" stroke-width="2"/>
+  <rect x="44" y="38" width="1192" height="52" rx="18" fill="#111A2E"/>
+  <line x1="44" y1="90" x2="1236" y2="90" stroke="#1E293B" stroke-width="2"/>
+
+  <circle cx="76" cy="64" r="6" fill="#EF4444"/>
+  <circle cx="96" cy="64" r="6" fill="#F59E0B"/>
+  <circle cx="116" cy="64" r="6" fill="#10B981"/>
+  <text x="144" y="69" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">VOCAL-DESK // SUB-450MS VOICE AI FRONT-DESK &amp; OMNICHANNEL BOOKING</text>
+  <rect x="1006" y="50" width="206" height="28" rx="14" fill="#064E3B" stroke="#10B981"/>
+  <text x="1026" y="68" fill="#A7F3D0" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">TURN LATENCY: 380MS P95</text>
+
+  <!-- Live Audio Waveform Banner -->
+  <rect x="76" y="116" width="1128" height="148" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="102" y="148" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">● ACTIVE REALTIME VOICE STREAM — VAPI.AI + TWILIO SIP + ELEVENLABS TURBO</text>
+
+  <!-- Audio Bars -->
+  <g fill="#10B981">
+    <rect x="108" y="190" width="10" height="32" rx="5"/>
+    <rect x="128" y="176" width="10" height="60" rx="5"/>
+    <rect x="148" y="168" width="10" height="76" rx="5"/>
+    <rect x="168" y="184" width="10" height="44" rx="5"/>
+    <rect x="188" y="164" width="10" height="84" rx="5"/>
+    <rect x="208" y="178" width="10" height="56" rx="5"/>
+    <rect x="228" y="192" width="10" height="28" rx="5"/>
+    <rect x="248" y="172" width="10" height="68" rx="5"/>
+    <rect x="268" y="162" width="10" height="88" rx="5"/>
+    <rect x="288" y="180" width="10" height="52" rx="5"/>
+    <rect x="308" y="188" width="10" height="36" rx="5"/>
+    <rect x="328" y="170" width="10" height="72" rx="5"/>
+    <rect x="348" y="182" width="10" height="48" rx="5"/>
+    <rect x="368" y="194" width="10" height="24" rx="5"/>
+  </g>
+
+  <rect x="424" y="166" width="236" height="76" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="444" y="194" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">BARGE-IN INTERRUPT</text>
+  <text x="444" y="222" fill="#F8FAFC" font-family="Outfit, sans-serif" font-size="22" font-weight="700">95ms VAD Stop</text>
+
+  <rect x="680" y="166" width="236" height="76" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="700" y="194" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">PRICING HALLUCINATION</text>
+  <text x="700" y="222" fill="#34D399" font-family="Outfit, sans-serif" font-size="22" font-weight="700">0.0% (Tool-Bound)</text>
+
+  <rect x="936" y="166" width="244" height="76" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="956" y="194" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">24/7 CALL CONVERSION</text>
+  <text x="956" y="222" fill="#FBBF24" font-family="Outfit, sans-serif" font-size="22" font-weight="700">+41% Booked Jobs</text>
+
+  <!-- Left: Mid-Call Deterministic Tool Calls -->
+  <rect x="76" y="286" width="560" height="366" rx="14" fill="#090D16" stroke="#1E293B"/>
+  <text x="102" y="318" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">MID-CALL DETERMINISTIC WEBHOOK TOOL EXECUTION</text>
+
+  <rect x="102" y="342" width="508" height="84" rx="10" fill="#10192B" stroke="#334155"/>
+  <text x="122" y="370" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">tool.lookup_live_pricing(service="Commercial_Audit")</text>
+  <text x="122" y="396" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">→ FastAPI /quote: $1,250 Verified Tier • 62ms</text>
+
+  <rect x="102" y="440" width="508" height="84" rx="10" fill="#10192B" stroke="#10B981"/>
+  <text x="122" y="468" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">tool.reserve_calendar_slot(date="Thu 10:30 AM")</text>
+  <text x="122" y="494" fill="#CBD5E1" font-family="JetBrains Mono, monospace" font-size="11">→ Calendar Lock #BK-8841 Confirmed • Conflict-Free</text>
+
+  <rect x="102" y="538" width="508" height="84" rx="10" fill="#10192B" stroke="#334155"/>
+  <text x="122" y="566" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">tool.dispatch_whatsapp_confirmation()</text>
+  <text x="122" y="592" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">→ WhatsApp + SMS Deposit Link + GoHighLevel Synced</text>
+
+  <!-- Right: Omnichannel Transcript & Escalation -->
+  <rect x="660" y="286" width="544" height="366" rx="14" fill="#10192B" stroke="#1E293B"/>
+  <text x="686" y="318" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">LIVE CONVERSATION STATE &amp; CRM DISPATCH</text>
+
+  <rect x="686" y="344" width="492" height="72" rx="10" fill="#090D16" stroke="#1E293B"/>
+  <text x="706" y="370" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">CALLER</text>
+  <text x="706" y="394" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="13">"Do you have an opening this Thursday morning, and what's the rate?"</text>
+
+  <rect x="686" y="430" width="492" height="92" rx="10" fill="#064E3B" fill-opacity="0.3" stroke="#10B981" stroke-opacity="0.5"/>
+  <text x="706" y="456" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="11">VOCAL-DESK AI AGENT (380ms)</text>
+  <text x="706" y="480" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="13">"Thursday at 10:30 AM is open at our $1,250 standard tier.</text>
+  <text x="706" y="502" fill="#F8FAFC" font-family="Plus Jakarta Sans, sans-serif" font-size="13">I've locked that slot and sent your confirmation via WhatsApp."</text>
+
+  <rect x="686" y="540" width="492" height="84" rx="10" fill="#090D16" stroke="#334155"/>
+  <text x="706" y="568" fill="#FBBF24" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">GUARDRAIL: WARM TRANSFER &amp; DEAD-LETTER QUEUE</text>
+  <text x="706" y="594" fill="#CBD5E1" font-family="Plus Jakarta Sans, sans-serif" font-size="12">Instant SIP handoff to human specialist on request; zero lost leads.</text>
+</svg>
+
